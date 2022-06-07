@@ -1,0 +1,16 @@
+h1, h2 {
+color: #FFFFFF;
+background: #000000;
+padding-left: 65px;
+}
+p{
+ padding-left: 65px;
+ padding-right: 72px;
+}
+ul{
+padding-left: 75px;
+}
+img{
+    padding-left: 65px;
+    padding-right: 475px;
+}
