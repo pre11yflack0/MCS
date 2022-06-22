@@ -24,32 +24,17 @@ display: flex;
 align-items: center;
 color: #FFFFFF;
 }
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
-}
-
-.photo-grid {
-position: absolute;
-width: 1350px;
-height: 1080px;
-left: 0px;
-top: 200px;
-padding-left: 0px;
-padding-right: 0px;
-}
 .img{
-  position: absolute;
+position: absolute;
 width: 1440px;
 height: 1080px;
 left: 0px;
 top: 200px;
-object-fit: cover;
 
-background: url(p.jpeg);
+background: url(p.jpeg) no-repeat;
 background-size: auto;
-background-position: 100%;
 }
+
 .header {
   position: absolute;
   width: 1440px;
@@ -99,6 +84,7 @@ background: #ca5405;
   position: absolute;
   left: 746px;
   top: 1500p;
+  left: 746px;
 font-family: 'Helvetica';
 font-size: 50px;
 line-height: 157px;
