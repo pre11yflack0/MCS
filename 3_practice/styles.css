@@ -45,11 +45,7 @@ background-size: contain;
   color: #FFFFFF
 }
 p{
-width: 1200px;
-height: 637px;
-padding-left: 80px;
-padding-top: 80px;
-padding-right: 50px;
+padding: 80px;
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 300;
@@ -58,7 +54,6 @@ line-height: 57px;
 color: #000000;
 }
 .footer{
-width: 1440px;
 height: 200px;
 background: #ca5405;
 }
