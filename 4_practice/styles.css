@@ -1,7 +1,6 @@
 .header{
-    width: 1440px;
+    padding: 0 0;
     height: 60px;
-    margin: -10px;
     background: #7406f1;
     }
     .h1{
@@ -18,14 +17,21 @@
         align-items: center;
         color: #FFFFFF;
     } 
-    .card-1{
-        margin: 112px 970px 112px 70px;
+    .cards{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .card{
+        width: 400px;
+        padding: 33px;
+        margin: 0 25px;
         box-sizing: border-box;
         border: 5px solid #E5E000;
         border-radius: 30px;
     }
-    .card-title1{
-        padding: 33px 0 0 33px; 
+    .card-title{
+       margin: 0 0 40px 0;
         font-family: 'Helvetica';
         font-style: normal;
         font-weight: 700;
@@ -35,60 +41,7 @@
         align-items: center;
         color: #000000;
     }
-    .card-list1{
-        margin: 13px;
-        font-family: 'Times New Roman';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 23px;
-        color: #000000;
-    }
-    .card-2{
-        margin: 112px 520px 112px 520px;
-        box-sizing: border-box;
-        border: 5px solid #E5E000;
-        border-radius: 30px;
-    }
-    .card-title2{
-        padding: 33px 0 0 33px; 
-        font-family: 'Helvetica';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 23px;
-        display: flex;
-        align-items: center;
-        color: #000000;
-    }
-    .card-list2{
-        margin: 13px;
-        font-family: 'Times New Roman';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 23px;
-        color: #000000;
-    }
-    .card-3{
-        margin: 112px 70px 112px 970px;
-        box-sizing: border-box;
-        border: 5px solid #E5E000;
-        border-radius: 30px;
-    }
-    .card-title3{
-        padding: 33px 0 0 33px;
-        margin: auto;
-        font-family: 'Helvetica';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 23px;
-        display: flex;
-        align-items: center;
-        color: #000000;
-    }
-    .card-list3{
+    .card-list{
         margin: 13px;
         font-family: 'Times New Roman';
         font-style: normal;
@@ -98,9 +51,7 @@
         color: #000000;
     }
     .footer{
-    margin: -10px;
     width: 1440px;
-    height: 60px;
     background: #7406f1;
     }
     .h{
