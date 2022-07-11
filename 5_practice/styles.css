@@ -81,12 +81,12 @@
     color: #000000;
   }
 .bottle{
-        display: flex;
+    display: flex;
         justify-content: center;
-        margin: 150px 200px 156px 200px;
+        padding: 150px 200px 156px 200px;
 }
 .bottle1{
-    margin: 150px 100px 256px 0;
+    margin: 150px 100px 0 0;
     width: 281px;
 height: 863px;
 left: 200px;
@@ -96,10 +96,9 @@ font-family: 'Arial';
 font-size: 25px;
 line-height: 29px;
 display: flex;
-align-items: center;
+align-items: flex-end;
 text-align: center;
 color: #000000;
-
 }
 .bottle2{
     margin: 150px 100px 256px 100px;
