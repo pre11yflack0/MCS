@@ -41,16 +41,17 @@
         background: no-repeat;
         height: 950px;
         background: url(./images5/evian_origins_logo.jpg);
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 400px;
-        font-size: 50px;
-        line-height: 115px;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        color: #E50043;
-        background-size: 100%;
+    position: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    line-height: 115px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: #E50043;
+    background-size: 100%;
   }
   .border{
     margin: 150px 199px 0 201px;
@@ -82,7 +83,44 @@
 .bottle{
         display: flex;
         justify-content: center;
-        margin: 150px 200px 156px 200px;
+        margin: 150px 200px 150px 200px;
+}
+.bottle1{
+    width: 281px;
+height: 863px;
+left: 200px;
+top: 1670px;
+background: url(./images5/wang.jpg);
+font-family: 'Arial';
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+
+}
+.bottle2{
+    width: 279px;
+    height: 863px;
+    left: 581px;
+    top: 1670px;
+    background: url(./images5/blue.jpg);
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    
+    }
+    .bottle3{
+        width: 280px;
+        height: 863px;
+        left: 960px;
+        top: 1670px;
+        background: url(./images5/chiara.jpg);
         font-family: 'Arial';
         font-size: 25px;
         line-height: 29px;
@@ -90,7 +128,8 @@
         align-items: center;
         text-align: center;
         color: #000000;
-}
+        
+        }
 .border-flex{
     display: flex;
     justify-content: space-around;
