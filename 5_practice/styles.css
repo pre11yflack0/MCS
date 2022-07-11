@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    position: absolute;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: #FFFFFF;
+  }
+  .text{
+    padding: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #E50043;
+  }
+  .menu{
+    margin-top: 50px;
+  }
+  .menu > li {
+    margin: 0 50px 0 50px;
+    display: inline;
+    font-family: 'Arial';
+    font-size: 50px;
+    line-height: 57px;
+    color: #E50043;
+  }
+  .hero-block{
+        margin-top: 140px;
+        background: no-repeat;
+        height: 950px;
+        background: url(./images5/evian_origins_logo.jpg);
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 50px;
+        line-height: 115px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        color: #E50043;
+        background-size: 100%;
+  }
+  .border{
+    margin: 150px 199px 0 201px;
+    box-sizing: border-box;
+    position: center;
+    width: 1040px;
+    height: 280px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+  }
+  .text1{
+    margin: 24px;
+  }
+  .h{
+    margin-bottom: 10px;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .p{
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+.bottle{
+        display: flex;
+        justify-content: center;
+        margin: 150px 200px 156px 200px;
+        font-family: 'Arial';
+        font-size: 25px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+}
+.border-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+margin: 30px 0 30px 80px;
+width: 101px;
+height: 220px;
+}
+.text4{
+margin: 30px 30px 30px 80px ;
+font-family: 'Arial';
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.p2{
+    margin-top: 1em;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+.footer{
+    margin-top: 150px;
+    margin-bottom: 0;
+    width: 1440px;
+    height: 140px;
+    background: #F8BFC7;
+}
+.h3{
+    padding: 50px 50px 50px 50px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
