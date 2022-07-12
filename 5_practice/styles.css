@@ -5,7 +5,7 @@
   }
   .header{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 140px;
     left: 0px;
     top: 0px;
@@ -37,10 +37,10 @@
     color: #E50043;
   }
   .hero-block{
-        margin-top: 140px;
-        background: no-repeat;
-        height: 950px;
-        background: url(./images5/evian_origins_logo.jpg);
+    margin-top: 140px;
+    background: no-repeat;
+    height: 950px;
+    background: url(./images5/evian_origins_logo.jpg);
     position: center;
     font-family: 'Arial';
     font-style: normal;
@@ -50,11 +50,12 @@
     align-items: center;
     text-align: center;
     display: flex;
+    justify-content: center;
     color: #E50043;
     background-size: 100%;
   }
   .border{
-    margin: 150px 199px 0 201px;
+    margin: 150px auto 0;
     box-sizing: border-box;
     position: center;
     width: 1040px;
@@ -82,56 +83,21 @@
   }
 .bottle{
     display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding: 150px 200px 156px 200px;
 }
 .bottle1{
-    margin: 150px 100px 0 0;
-    width: 281px;
-height: 863px;
-left: 200px;
-top: 1670px;
-background: url(./images5/wang.jpg);
-font-family: 'Arial';
-font-size: 25px;
-line-height: 29px;
-display: flex;
-align-items: flex-end;
-text-align: center;
-color: #000000;
-}
-.bottle2{
-    margin: 150px 100px 256px 100px;
-    width: 279px;
-    height: 863px;
-    left: 581px;
-    top: 1670px;
-    background: url(./images5/blue.jpg);
+    display: flex;
+    flex-direction: column;
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #000000;
-    
-    }
-    .bottle3{
-        margin: 150px 0 256px 100px;
-        width: 280px;
-        height: 863px;
-        left: 960px;
-        top: 1670px;
-        background: url(./images5/chiara.jpg);
-        font-family: 'Arial';
-        font-size: 25px;
-        line-height: 29px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #000000;
-        
-        }
+}
+.bottle-description{
+    margin-top: auto;
+}
 .border-flex{
     display: flex;
     justify-content: space-around;
@@ -166,6 +132,22 @@ color: #000000;
     letter-spacing: 0.05em;
     color: #000000;
   }
+  .p3{
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .p4{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
 .footer{
     margin-top: 150px;
     margin-bottom: 0;
@@ -175,7 +157,6 @@ color: #000000;
 }
 .h3{
     padding: 50px 50px 50px 50px;
-    
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400px;
