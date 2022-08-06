@@ -20,6 +20,7 @@
 .border-box{
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     padding: 70px 0;
 }
 .border-box1{
