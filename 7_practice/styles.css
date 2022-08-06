@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.header{
+    height: 160px;
+    background: #FFE138;
+}
+.h1{
+    padding-top: 52px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.border-box{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.border-box1{
+    width: 400px;
+    margin: 0 25px 0 70px;
+    border: 1px solid #000000;
+}
+.Meta Side Table img {
+    width: 100%;
+    display: block;
+  }
+
+.h{
+    padding: 33px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.p{
+    padding: 33px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.border-box2{
+    width: 400px;
+    margin: 0 25px;
+    border: 1px solid #000000;
+}
+.Click Shelf img {
+    width: 100%;
+    display: block;
+  }
+
+.border-box3{
+    width: 400px;
+    margin: 0 70px 0 25px;
+    border: 1px solid #000000;
+}
+.Float Shelf img {
+    width: 100%;
+    display: block;
+  }
+
+.footer{
+    height: 160px;
+    background: #FFE138;
+}
+.h2{
+    padding-top: 52px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
