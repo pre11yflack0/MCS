@@ -7,52 +7,34 @@ body{
     background-color:#336FD1 ;
 }
 .header{    
-width: 1440px;
-height: 90px;
+padding: 35px 50px;
+display: flex;
+justify-content: space-between;
 background: #F8BFC7;
 }
-.link{
-    position: absolute;
-    width: 108px;
-    height: 23px;
-    left: 50px;
-    top: 33px;
-    }
+
     
-    .link > ul{
-       
+    ul{
+    word-spacing: 3px;
+    list-style: none;
     font-family: 'Helvetica';
     font-size: 20px;
     line-height: 23px;
     display: flex;
     align-items: center;
     color: #000000;
-    
     }
-    
-    .menu{
-    position: absolute;
-    width: 65px;
-    height: 23px;
-    left: 1325px;
-    top: 33px;
-    
-    font-family: 'Helvetica';
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #000000;
-    }
+    a{
+        color: #000000;
+        text-decoration: none;
+    }    
 
 figure{
-    background-image:url("../8_practice/images/background.jpg") ;
-    width: 1440px;
+background-image:url("../8_practice/images/background.jpg") ;
 height: 643px;
+background-size: cover;
+padding: 90px;
 margin: 0;
-padding: 0;
 }
 .speaker-form {
     background-color: #F8BFC7;
@@ -60,31 +42,26 @@ padding: 0;
     border-radius: 20px;
     width: 300px;
     padding: 33px 30px 15px 30px;
-    margin: 0px 1050px 0 90px ;
-
+    margin-bottom: 10px;
+   
+   
     font-family: 'Helvetica';
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
   }
-  .form-row{
-      position: relative;
-      margin-bottom: 56px ;
-      
-  }
+  
   .form-row input[type="name"],
   .form-row input[type="city"],
 .form-row input[type="present"],
 .form-row input[type="email"]{
  width: 100%;
+ margin-bottom: 56px;
  border: none;
  border-bottom: 1px solid #FFFFFF ;
  background-color: transparent;
 }
 
 .button{
-    margin: 10px 1100px 121px 140px;
     padding: 20px 38px 20px 37px;
-    width: 200px;
     background: #FEB700;
     border: 3px solid #FFFFFF;
     border-radius: 30px;
@@ -94,22 +71,24 @@ padding: 0;
     line-height: 23px;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #FFFFFF;  
 }
-  .box1{
-    margin: 30px 0 114px 340px;
-    font-family: 'Helvetica';
-    font-size: 50px;
-    line-height: 57px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FEB700;
+    .box1 {
+        padding: 30px;
     
-  }
+        font-family: 'Helvetica';
+        font-size: 50px;
+        line-height: 57px;
+        text-align: center;
+        color: #FEB700;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 .footer{
-    width: 1440px;
     height: 90px;
     background: #F8BFC7;
 }
@@ -123,11 +102,11 @@ padding: 0;
     color: #FFFFFF;
 }
 .h2{
+    padding: 33px 50px 34px 0px;
     font-family: 'Helvetica';
     font-size: 20px;
     line-height: 23px;  
     display: flex;
     align-items: center;
-    text-align: right;
     color: #FFFFFF;
 }
