@@ -15,7 +15,7 @@ background: #F8BFC7;
 
     
     ul{
-    word-spacing: 3px;
+        word-spacing: 10px;
     list-style: none;
     font-family: 'Helvetica';
     font-size: 20px;
@@ -24,7 +24,8 @@ background: #F8BFC7;
     align-items: center;
     color: #000000;
     }
-    a{
+    a{ 
+        word-spacing: 10px;
         color: #000000;
         text-decoration: none;
     }    
