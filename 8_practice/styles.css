@@ -23,6 +23,9 @@ background: #F8BFC7;
     align-items: center;
     color: #000000;
     }
+    li{
+        margin-right: 30px;
+    }
     a{ 
         word-spacing: 10px;
         color: #000000;
@@ -59,9 +62,14 @@ margin: 0;
  border-bottom: 1px solid #FFFFFF ;
  background-color: transparent;
 }
+input::placeholder {
+    opacity: 0.5; /* Регулируй значение от 0 до 1*/
+    color: #FFFFFF;
+  }
 
 .button{
     padding: 20px 38px 20px 37px;
+    margin-left: 40px;
     background: #FEB700;
     border: 3px solid #FFFFFF;
     border-radius: 30px;
@@ -90,6 +98,9 @@ margin: 0;
 
 .footer{
     height: 90px;
+    padding: 33px 50px;
+    display: flex;
+    justify-content: space-between;
     background: #F8BFC7;
 }
 .h1{
